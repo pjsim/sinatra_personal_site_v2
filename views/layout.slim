@@ -1,0 +1,20 @@
+doctype html
+html
+	head
+
+	header
+
+	body
+		== yield
+	footer
+		small
+			/ p &copy; Copyright #{settings.author} #{Time.now.year==2011 ? '2011': '2011-'+Time.now.year.to_s}
+			p
+				| This site has been built using 
+				a href="http://sinatrarb.com" Sinatra
+				| , 
+				a href="http://nodebox.com" Nodebox (wrong link)
+				|  &amp; 
+				a href="http://linuxmint.com" Linux Mint
+				|, and hosted on 
+				a href="http://heroku.com" Heroku

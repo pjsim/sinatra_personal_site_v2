@@ -1,24 +1,31 @@
 doctype html
 html
 	head
-		title Sinatra + Twitter Bootstrap
+		title Phillip Simmonds Personal Site
 		script src="/vendor/jquery-1.9.1.min.js" type="text/javascript"
 		script src="/vendor/bootstrap/js/bootstrap.min.js"
 		link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
   		link href="/vendor/fontawesome/css/font-awesome.min.css" rel="stylesheet"
-
+  		== styles
 	header
-
+		h2
+			a title="Home" href="/" Phill
 	body
-		== yield
+		.row.well
+			.span8
+				== yield
+			.span4
+				== slim @menu || :menu
 	footer
 		small
 			/ p &copy; Copyright #{settings.author} #{Time.now.year==2011 ? '2011': '2011-'+Time.now.year.to_s}
 			p
 				| This site has been built using 
 				a href="http://sinatrarb.com" Sinatra
-				| , 
-				a href="http://nodebox.com" Nodebox (wrong link)
+				|, 
+				a href="http://getbootstrap.com" Twitter Bootstrap
+				|, 
+				a href="http://nodebox.net" Nodebox
 				|  &amp; 
 				a href="http://linuxmint.com" Linux Mint
 				|, and hosted on 

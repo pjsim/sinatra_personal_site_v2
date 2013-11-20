@@ -3,34 +3,51 @@ Bundler.require
 
 configure do
   set :public_folder, Proc.new { File.join(root, "static") }
+  set :styles, %w[ main ]
 end
+
+helpers do
+  def styles
+    styles = ""
+    (@styles?([@styles].flatten+settings.styles):settings.styles).uniq.each do |style|
+      styles << "<link href=\"/#{style}.css\" media=\"screen, projection\" rel=\"stylesheet\" />"
+    end
+    styles
+  end
+end
+
+### Routes ###
+not_found { slim :'404' }
+error { slim :'500' }
+get('/main.css') { scss :styles }
+
 
 get '/' do
 	@title = "Phillip Simmonds's Personal Site"
-	slim :index	
+	slim :index
+end
+
+get '/:page' do
+  if File.exists?('views/'+params[:page]+'.slim')
+    slim params[:page].to_sym
+  elsif File.exists?('views/'+params[:page]+'.md')
+    markdown params[:page].to_sym
+  else
+    raise error(404) 
+  end   
 end
 
 __END__
 ### views ###
 
 @@index
-ul#myTab.nav.nav-tabs
-	li.active
-    	a href="#home" Home
-  	li
-    	a href="#profile" Profile
-  	li
-    	a href="#messages" Messages
-  	li
-    	a href="#settings" Settings
-.tab-content
- 	#home.tab-pane.active ...dsads
-  	#profile.tab-pane ...asddsaad
-  	#messages.tab-pane ...adsdsaewq
-  	#settings.tab-pane ...eqwwqe
+.css3-notification
+  p Hi, this website is under development!!
+  
+@@404
+h1 404! 
+p That page is missing
 
-javascript:
-	| $('#myTab a').click(function (e) {
-	| e.preventDefault();
-	| $(this).tab('show');
-	| })
+@@500
+h1 500 Error! 
+p Oops, something has gone terribly wrong!

@@ -1,0 +1,68 @@
+ul#myTab.nav.nav-tabs
+	li.active
+		a href="#experience" Experience
+	li
+		a href="#education" Education
+	li
+		a href="#web" Web Development
+	li
+		a href="#3d" 3D Animation
+
+.tab-content
+	#experience.tab-pane.active
+		h4 Render Wrangler
+		h5 Animal Logic, 2013-2014
+		p what i did
+		br
+		h4 Web Development Intern
+		h5 Lawpath, 2013
+		p what i did
+		br
+		h4 Freelance animator
+		h5 2012-2013
+		p whit i did
+		br
+		h4 Layout & Previz (Internship)
+		h5 Onyx Studio, Luxembourge, 2009
+		p whta i did
+
+	#education.tab-pane
+		h4 Education
+		h5 Sydney Dev Camp
+		h6 Sydney, 2013
+		br
+		h5 Adv. Diploma of Screen & Media
+		h6 Academy of Interactive Entertainment, 2011-2012
+		br
+		h5 B. Arts & Science (Digital Cultures)
+		h6 University of Sydney, 2006-2010
+		br
+		h4 Languages
+		h5 French
+		h5 Italian
+
+	#web.tab-pane
+		h5 Ruby
+		p I have mostly used Ruby for web development in rails
+		h6 Ruby on Rails
+		p I have 6 months experience using rails, various gems such as slim, rspec and capybara testing
+		h6 Sinatra
+		p This site was built using Sinatra
+		h5 Python
+		p I have used python to develop tools in aid my work in 3D software such as Maya and Houdini. While working at Animal Logic I also used python to make scripts like web scrapers and task automaters. I have also played around a bit with the
+		strong Django 
+		| and 
+		strong Flask 
+		| frameworks.
+		h5 Javascript
+		p I don't have as much experience with Javascript just yet. So far I have mostly been dealing with JQuery, Coffeescript and some Javascript libraries while using rails (D3.js, three.js). I plan to very shortly become more familiar with node.js and the new meteor framework as well as Javascript in general.
+
+	#3d.tab-pane
+		h5 Maya
+		h5 Nuke
+		h5 Houdini
+		h5 Realflow
+		h5 Adobe: Photshop, After Effects, Premiere
+		h5 Renderers: Mental Ray, PRMan (for Maya), Mantra, Arnold 
+
+<script>$('#myTab a').click(function (e) {e.preventDefault();$(this).tab('show');})</script>

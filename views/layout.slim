@@ -9,16 +9,18 @@ html
   		== styles
 	header
 		h2
-			a title="Home" href="/" Phill
+			a title="Home" href="/" Phillip Simmonds
+			img src="/images/pjsim_logo.png" alt="logo" style="width:3%; margin-left:10px;"
+			/MAKE THIS IMAGE SMALLER!!!!!!!!!!
 	body
-		.row.well
+		.row.content
 			.span8
 				== yield
-			.span4
+			.span2
 				== slim @menu || :menu
 	footer
 		small
-			/ p &copy; Copyright #{settings.author} #{Time.now.year==2011 ? '2011': '2011-'+Time.now.year.to_s}
+			p &copy; Copyright Phillip Simmonds #{Time.now.year==2011 ? '2011': '2011-'+Time.now.year.to_s}
 			p
 				| This site has been built using 
 				a href="http://sinatrarb.com" Sinatra

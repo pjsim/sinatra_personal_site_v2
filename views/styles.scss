@@ -1,5 +1,56 @@
 html{
-	margin: 5em;
+	background: url("/images/invaders2.png") repeat;
+	/*FADE THIS IMAGE A BIT*/
+	background-size: 8%;
+	background-color: rgba(blue, 0.05);
+}
+
+header{
+    border-bottom: 6px solid black;
+    padding: 20px;
+}
+
+body{
+	border: 6px solid black;
+	max-width: 1040px;
+	margin: 10px auto;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.16),-5px 5px 5px rgba(0,0,0,0.16);
+	border-radius: 25px;
+}
+
+footer{
+	padding:20px;
+	border-top: 6px solid black;
+}
+
+.content{
+	padding: 50px;
+}
+
+#myPic{
+	width: 60%;
+	margin-right: 5em;
+	margin-top: 2em;
+}
+
+.videos{
+	text-align: center;
+	iframe{
+		margin: 10px;
+	}
+}
+
+.website{
+	margin: 10px;
+}
+
+.btn-primary{
+	border-radius: 5px;
+	background-color: transparent;
+	border-top: 3px solid rgba(white,0.3);
+	border-left: 3px solid rgba(white,0.1);
+	border-right: 3px solid rgba(white,0.1);
+	border-bottom: 3px solid rgba(white,0.2);
 }
 
 #myTab{

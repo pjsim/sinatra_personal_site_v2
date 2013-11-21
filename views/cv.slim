@@ -7,39 +7,36 @@ ul#myTab.nav.nav-tabs
 		a href="#web" Web Development
 	li
 		a href="#3d" 3D Animation
+	li
+		a href="#misc" Misc.
 
 .tab-content
 	#experience.tab-pane.active
 		h4 Render Wrangler
 		h5 Animal Logic, 2013-2014
 		p what i did
-		br
+		hr
 		h4 Web Development Intern
 		h5 Lawpath, 2013
 		p what i did
-		br
+		hr
 		h4 Freelance animator
 		h5 2012-2013
 		p whit i did
-		br
+		hr
 		h4 Layout & Previz (Internship)
 		h5 Onyx Studio, Luxembourge, 2009
 		p whta i did
 
 	#education.tab-pane
-		h4 Education
 		h5 Sydney Dev Camp
 		h6 Sydney, 2013
-		br
+		hr
 		h5 Adv. Diploma of Screen & Media
 		h6 Academy of Interactive Entertainment, 2011-2012
-		br
+		hr
 		h5 B. Arts & Science (Digital Cultures)
 		h6 University of Sydney, 2006-2010
-		br
-		h4 Languages
-		h5 French
-		h5 Italian
 
 	#web.tab-pane
 		h4 Ruby
@@ -48,17 +45,36 @@ ul#myTab.nav.nav-tabs
 		p I have 6 months experience using rails, various gems such as slim, rspec and capybara testing
 		h5 Sinatra
 		p This site was built using Sinatra
+		hr
 		h4 Python
 		p I have used python to develop tools in aid my work in 3D software such as Maya and Houdini. While working at Animal Logic I also used python to make scripts like web scrapers and task automaters. I have also played around a bit with the <strong>Django</strong> and <strong>Flask</strong> frameworks.
+		hr
 		h4 Javascript
 		p I don't have as much experience with Javascript just yet. So far I have mostly been dealing with JQuery, Coffeescript and some Javascript libraries while using rails (D3.js, three.js). I plan to very shortly become more familiar with node.js and the new meteor framework as well as Javascript in general.
 
 	#3d.tab-pane
 		h4 Maya
+		hr
 		h4 Nuke
+		hr
 		h4 Houdini
+		hr
 		h4 Realflow
+		hr
 		h4 Adobe: Photshop, After Effects, Premiere
-		h4 Renderers: Mental Ray, PRMan (for Maya), Mantra, Arnold 
+		hr
+		h4 Renderers:
+		h5 Mental Ray
+		h5 PRMan (for Maya)
+		h5 Mantra
+		h5 Arnold
+
+	#misc.tab-pane
+		h4 Languages
+		h5 French
+		p Studied at uni and spent some months living in France
+		hr
+		h5 Italian
+		p Studied at uni
 
 <script>$('#myTab a').click(function (e) {e.preventDefault();$(this).tab('show');})</script>

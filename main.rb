@@ -27,6 +27,34 @@ get '/' do
 	slim :index
 end
 
+get '/success' do
+  @title = "Message Received!"
+  slim :success
+end
+
+post '/' do
+    require 'pony'
+    Pony.mail(
+      from: "Phillip<phillip.j.simmonds@gmail.com>",
+      to: 'phillip.j.simmonds@gmail.com',
+      subject: "A message from the PJS website",
+      body: params[:message],
+      port: '587',
+      via: :smtp,
+      via_options: {
+        :address => 'smtp.sendgrid.net',
+        :port => '587',
+        :enable_starttls_auto => true,
+        :user_name => ENV['SENDGRID_USERNAME'],
+        :password => ENV['SENDGRID_PASSWORD'],
+        :authentication => :plain,
+        :domain => 'heroku.com'
+      })
+    redirect '/success'
+end
+
+
+
 get '/:page' do
   if File.exists?('views/'+params[:page]+'.slim')
     slim params[:page].to_sym
@@ -48,6 +76,7 @@ p working form, better content
 p built for mobile
 p links for things like company names
 p link crazy domain to heroku  
+
 @@404
 h1 404! 
 p That page is missing
@@ -55,3 +84,14 @@ p That page is missing
 @@500
 h1 500 Error! 
 p Oops, something has gone terribly wrong!
+
+@@contact
+#contact
+  h2 Contact Me
+  form action='/' method='post'
+    label for='message' Write me a short message below
+    textarea rows='12' cols='40' name='message'
+    input#send.button type='submit' value='Send'
+
+@@success
+p Thanks for the message. If you included some contact details, I'll be in touch soon.

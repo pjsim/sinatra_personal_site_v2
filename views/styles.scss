@@ -32,11 +32,6 @@ footer{
 	padding: 30px 50px 40px 70px;
 }
 
-#myPic{
-	float:right;
-	margin-right: 2.5em;
-}
-
 .videos{
 	text-align: center;
 	iframe{
@@ -46,11 +41,15 @@ footer{
 
 .website{
 	margin: 10px;
+	img{
+		width: 40%;
+	}
 }
 
 .btn-primary{
+	margin: 3px;
+	min-width: 250px;
 	border-radius: 5px;
-	background-color: transparent;
 	border-top: 3px solid rgba(white,0.3);
 	border-left: 3px solid rgba(white,0.1);
 	border-right: 3px solid rgba(white,0.1);

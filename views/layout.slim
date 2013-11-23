@@ -3,9 +3,9 @@ html
 	head
 		title= @title || settings.name || "Phillip Simmonds"
 		script src="/vendor/jquery-1.9.1.min.js" type="text/javascript"
-		script src="/vendor/bootstrap/js/bootstrap.min.js"
-		link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
-  		link href="/vendor/fontawesome/css/font-awesome.min.css" rel="stylesheet"
+		script src="/dist/js/bootstrap.min.js" type="text/javascript"
+		link href="/dist/css/bootstrap.min.css" rel="stylesheet"
+		/link href="/dist/css/bootstrap-theme.min.css" rel="stylesheet"
   		link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'
   		== styles
 	header
@@ -13,12 +13,12 @@ html
 			a.logo title="Home" href="/" Phillip J Simmonds
 			//img src="/images/pjsim_logo3.png" alt="logo" style="margin-left:10px;" <-- TURN THIS INTO FAVICON
 		h4.logo Web Developer / Animator
-		p GitHub, LinkedIn, Vimeo, StackOverflow, Gmail
+		p GitHub, LinkedIn, Vimeo, StackOverflow, Gmail --> put contact details and icons in right half
 	body
 		.row.content
-			.span8
+			.col-md-8
 				== yield
-			.span2
+			.col-md-2
 				== slim @menu || :menu
 	footer
 		small

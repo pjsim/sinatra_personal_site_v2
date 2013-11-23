@@ -96,11 +96,9 @@ p Oops, something has gone terribly wrong!
 #contact
   h4 Quick Message
   form action='/' method='post'
-    .row.span12
-      label for='message' Write me a short message below
-      textarea rows='4' cols='6' name='message'
-    .row.span12
-      input#send.button.btn-info type='submit' value='Send'
+    label for='message' Write me a short message below
+    textarea rows='4' cols='6' name='message'
+    input#send.button.btn-info type='submit' value='Send'
 
   h5 GitHub
   h5 stackoverflow??

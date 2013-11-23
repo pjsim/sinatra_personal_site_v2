@@ -47,7 +47,7 @@ p It still needs google analytics and SOE, image optimisation, CSS optimisation
 p working form, better content
 p built for mobile
 p links for things like company names
-  
+p link crazy domain to heroku  
 @@404
 h1 404! 
 p That page is missing

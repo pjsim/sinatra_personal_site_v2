@@ -80,6 +80,8 @@ p built for mobile <-- bootstrap 3
 p links for things like company names
 p link crazy domain to heroku  
 p add new relic
+p fix form
+p better css --> colors, fade black border
 
 @@404
 h1 404! 

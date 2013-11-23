@@ -1,7 +1,5 @@
 html{
-	background: url("/images/invaders2.png") repeat;
-	/*FADE THIS IMAGE A BIT*/
-	background-size: 8%;
+	background: url("/images/invaders3.png") repeat;
 	background-color: rgba(blue, 0.05);
 }
 
@@ -21,6 +19,13 @@ body{
 footer{
 	padding: 20px 50px 20px 50px;
 	border-top: 6px solid black;
+}
+
+.logo{
+	font-family: 'Love Ya Like A Sister', cursive;
+	&:hover{
+		text-decoration: none;
+	}
 }
 
 .content{
@@ -121,3 +126,6 @@ footer{
 	60% {transform:translateY(0); padding-bottom: 2px;}
 	100% {transform:translateY(0); padding-bottom: 2px;}
 }
+
+
+

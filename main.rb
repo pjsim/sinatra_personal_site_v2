@@ -2,6 +2,9 @@ require 'bundler'
 Bundler.require
 
 configure do
+  set :name, ENV['NAME'] || 'Phillip Simmonds'
+  set :author, ENV['AUTHOR'] || 'Phillip Simmonds'
+  set :analytics, ENV['ANALYTICS'] || 'UA-45970474-1'
   set :public_folder, Proc.new { File.join(root, "static") }
   set :styles, %w[ main ]
 end
@@ -72,10 +75,11 @@ __END__
 .css3-notification
   p Hi, this website is under development!!
 p It still needs google analytics and SOE, image optimisation, CSS optimisation
-p working form, better content
-p built for mobile
+p better content <-- do during work
+p built for mobile <-- bootstrap 3
 p links for things like company names
 p link crazy domain to heroku  
+p add new relic
 
 @@404
 h1 404! 
@@ -86,12 +90,20 @@ h1 500 Error!
 p Oops, something has gone terribly wrong!
 
 @@contact
+-@title="Contacts"
 #contact
-  h2 Contact Me
+  h4 Quick Message
   form action='/' method='post'
-    label for='message' Write me a short message below
-    textarea rows='12' cols='40' name='message'
-    input#send.button type='submit' value='Send'
+    .row.span12
+      label for='message' Write me a short message below
+      textarea rows='4' cols='6' name='message'
+    .row.span12
+      input#send.button.btn-info type='submit' value='Send'
+
+  h5 GitHub
+  h5 stackoverflow??
+  h5 LinkedIn
+  h5 Email
 
 @@success
 p Thanks for the message. If you included some contact details, I'll be in touch soon.

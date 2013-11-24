@@ -75,13 +75,13 @@ __END__
 .css3-notification
   p Hi, this website is under development!!
 p better content <-- do during work
-p built for mobile <-- bootstrap 3
+p built for mobile <-- menu needs to change based on mobile view
 h4 links for things like company names
 p link crazy domain to heroku  
 p fix form <-- ask on stackoverflow how do i get default value for text field in sinatra?
 p better css --> colors, fade black border
-
-
+p carousel for animation portfolio (and maybe web one as well)
+p use stackoverflow for everything you dont know
 
 @@404
 h1 404! 

@@ -5,7 +5,7 @@ html{
 
 header{
     border-bottom: 6px solid black;
-    padding: 20px 50px 20px 50px;
+    padding: 0px 0px 15px 0px;
 }
 
 body{
@@ -22,7 +22,8 @@ footer{
 }
 
 .logo{
-	font-family: 'Love Ya Like A Sister', cursive;
+	/*font-family: 'Love Ya Like A Sister', cursive;*/
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	&:hover{
 		text-decoration: none;
 	}

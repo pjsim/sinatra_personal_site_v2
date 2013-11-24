@@ -36,7 +36,6 @@ get '/success' do
 end
 
 post '/' do
-    slim :contact
     require 'pony'
     Pony.mail(
       from: "Phillip<phillip.j.simmonds@gmail.com>",
@@ -94,19 +93,19 @@ p That page is missing
 h1 500 Error! 
 p Oops, something has gone terribly wrong!
 
-@@contact
--@title="Contacts"
-#contact
-  h4 Quick Message
-  form action='/' method='post'
-    label for='message' Write me a short message below
-    textarea rows='4' cols='6' name='message'
-    input#send.button.btn-info type='submit' value='Send'
+# @@contact
+# -@title="Contacts"
+# #contact
+#   h4 Quick Message
+#   form action='/' method='post'
+#     label for='message' Write me a short message below
+#     textarea rows='4' cols='6' name='message'
+#     input#send.button.btn-info type='submit' value='Send'
 
-  h5 GitHub
-  h5 stackoverflow??
-  h5 LinkedIn
-  h5 Email
+#   h5 GitHub
+#   h5 stackoverflow??
+#   h5 LinkedIn
+#   h5 Email
 
 @@success
 p Thanks for the message. If you included some contact details, I'll be in touch soon.

@@ -16,19 +16,23 @@ br
 a.btn.btn-primary href="/web_development_portfolio" role="button" Web Development - Portfolio
 br
 a.btn.btn-primary href="/3d_portfolio" role="button" 3D Animation - Porfolio
+
+
 / br
 / a.btn.btn-primary href="/contact" role="button" Contact Me
-br
-a.btn.btn-primary role="button" data-parent="#accordion" data-toggle="collapse" href="#collapseThree" Contact Me
 
-#collapseThree.panel-collapse.collapse
-	.panel-body
-		#contact
-  			/ h4 Quick Message
-  			form action='/' method='post'
-			    / label for='message' Write me a short message below
-			    textarea rows='4' cols='6' name='message' style="width:250px;border-radius:15px;"
-			    input#send.button.btn-info type='submit' value='Send' style="border-radius:5px;"
+
+/ br
+/ a.btn.btn-primary role="button" data-parent="#accordion" data-toggle="collapse" href="#collapseContact" Contact Me
+
+/ #collapseContact.panel-collapse.collapse
+/ 	.panel-body
+/ 		#contact
+/   			/ h4 Quick Message
+/   			form action='/' method='post'
+/ 			    / label for='message' Write me a short message below
+/ 			    textarea rows='4' cols='6' name='message' style="width:250px;border-radius:15px;"
+/ 			    input#send.button.btn-info type='submit' value='Send' style="border-radius:5px;"
 
 
 
@@ -42,3 +46,28 @@ a.btn.btn-primary role="button" data-parent="#accordion" data-toggle="collapse" 
 /     #collapseThree.panel-collapse.collapse
 /       .panel-body
 /         | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+
+
+/ #accordion.panel-group
+/   	button.panel.panel-default.btn-primary data-parent="#accordion" data-toggle="collapse" href="#collapseContact" Contact Me
+/ 	#collapseContact.panel-collapse.collapse 
+/ 	  .panel-body
+/ 	   h3 Helo
+/ 	   /  #contact
+/ 		  / form action='/' method='post'
+/ 	   /      textarea rows='4' cols='6' name='message' style="width:250px;border-radius:15px;"
+/ 	   /      input#send.button.btn-info type='submit' value='Send' style="border-radius:5px;"
+
+
+
+
+#accordion.panel-group style="width:250px;"
+  .panel.panel-default
+    .panel-heading
+      h4.panel-title
+        a.btn.btn-primary data-parent="#accordion" data-toggle="collapse" href="#collapseThree"
+          | Collapsible Group Item #3
+    #collapseThree.panel-collapse.collapse
+      .panel-body
+        | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.

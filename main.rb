@@ -36,6 +36,7 @@ get '/success' do
 end
 
 post '/' do
+    slim :contact
     require 'pony'
     Pony.mail(
       from: "Phillip<phillip.j.simmonds@gmail.com>",

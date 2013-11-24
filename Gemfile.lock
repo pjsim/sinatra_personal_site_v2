@@ -10,6 +10,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25)
+    newrelic_rpm (3.6.9.171)
     polyglot (0.3.3)
     pony (1.5.1)
       mail (>= 2.0)
@@ -35,6 +36,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script
+  newrelic_rpm
   pony
   sass
   sinatra

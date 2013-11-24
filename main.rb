@@ -77,9 +77,9 @@ __END__
 p It still needs google analytics and SOE, image optimisation, CSS optimisation
 p better content <-- do during work
 p built for mobile <-- bootstrap 3
-p links for things like company names
+h4 links for things like company names
 p link crazy domain to heroku  
-p add new relic
+h4 add new relic
 p fix form <-- ask on stackoverflow how do i get default value for text field in sinatra?
 p better css --> colors, fade black border
 

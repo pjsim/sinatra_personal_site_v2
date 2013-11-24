@@ -74,12 +74,10 @@ __END__
 @@index
 .css3-notification
   p Hi, this website is under development!!
-p It still needs google analytics and SOE, image optimisation, CSS optimisation
 p better content <-- do during work
 p built for mobile <-- bootstrap 3
 h4 links for things like company names
 p link crazy domain to heroku  
-h4 add new relic
 p fix form <-- ask on stackoverflow how do i get default value for text field in sinatra?
 p better css --> colors, fade black border
 

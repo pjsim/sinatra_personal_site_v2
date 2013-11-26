@@ -6,37 +6,41 @@ html
 		script src="/dist/js/bootstrap.min.js" type="text/javascript"
 		link href="/dist/css/bootstrap.min.css" rel="stylesheet"
 		/link href="/dist/css/bootstrap-theme.min.css" rel="stylesheet"
+		link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"
+
   		link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'
   		link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'
   		== styles
 	header
 		.row
 			.col-md-1
-			.col-md-6
+			.col-md-7
 				h2
 					a.logo title="Home" href="/" style="font-size:40px;" Phillip J Simmonds
 				h4.logo Web Developer / Animator
 			//img src="/images/pjsim_logo3.png" alt="logo" style="margin-left:10px;" <-- TURN THIS INTO FAVICON
-			.col-md-4.row style='font-size:13px;margin-top:20px;'
-				.col-xs-1
-				.col-xs-3
-					| Email: 
-					br
-					| LinkedIn: 
-					br
-					| GitHub:
-					br
-					| Vimeo:  
-				.col-xs-7
-					a href="mailto:phillip.j.simmonds@gmail.com" target="_blank" phillip.j.simmonds@gmail.com
-					br
-					a href="http://au.linkedin.com/in/phillipsimmonds" target="_blank" linkedin.com/in/phillipsimmonds
-					br
-					a href="https://github.com/pjsim" target="_blank" github.com/pjsim
-					br
-					a href="http://vimeo.com/phillipsimmonds"  target="_blank" vimeo.com/phillipsimmonds
-				.col-xs-1
-			.col-md-1
+			.col-md-4
+				table.table-condensed.small style="margin-top:10px;margin-bottom:0px;"
+					tr
+						td 
+							i.fa.fa-envelope&nbsp;&nbsp;Email:
+						td
+							a href="mailto:phillip.j.simmonds@gmail.com" target="_blank" phillip.j.simmonds@gmail.com
+					tr
+						td 
+							i.fa.fa-linkedin&nbsp;&nbsp;LinkedIn:
+						td
+							a href="http://au.linkedin.com/in/phillipsimmonds" target="_blank" linkedin.com/in/phillipsimmonds 
+					tr
+						td 
+							i.fa.fa-github-alt&nbsp;&nbsp;GitHub:
+						td
+							a href="https://github.com/pjsim" target="_blank" github.com/pjsim 
+					tr
+						td 
+							i.fa.fa-vimeo-square&nbsp;&nbsp;Vimeo:
+						td
+							a href="http://vimeo.com/phillipsimmonds"  target="_blank" vimeo.com/phillipsimmonds
 	body
 		.row.content
 			.col-md-8

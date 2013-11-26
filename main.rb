@@ -87,6 +87,8 @@ p whats on front page ==> short about me? skills? pics?
 p form needs return email field
 p clean up code for github (including css)
 p probably move menu right a bit and give bit more space to main content (esp 3d vids)
+p change success message
+p favicon
 
 @@404
 h1 404! 

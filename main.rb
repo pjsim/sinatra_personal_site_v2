@@ -78,16 +78,11 @@ __END__
 
 p better content <-- do during work
 p built for mobile <-- menu needs to change based on mobile view
-h4 links for things like company names
-p better css --> colors, fade black border
-p carousel for animation portfolio (and maybe web one as well)
 p use stackoverflow for everything you dont know
 p weta wants: scrum, MySQL, (say i use postgres but its similar)
 p whats on front page ==> short about me? skills? pics?
-p form needs return email field
 p clean up code for github (including css)
 p probably move menu right a bit and give bit more space to main content (esp 3d vids)
-p change success message
 p favicon
 
 @@404
@@ -98,19 +93,5 @@ p That page is missing
 h1 500 Error! 
 p Oops, something has gone terribly wrong!
 
-# @@contact
-# -@title="Contacts"
-# #contact
-#   h4 Quick Message
-#   form action='/' method='post'
-#     label for='message' Write me a short message below
-#     textarea rows='4' cols='6' name='message'
-#     input#send.button.btn-info type='submit' value='Send'
-
-#   h5 GitHub
-#   h5 stackoverflow??
-#   h5 LinkedIn
-#   h5 Email
-
 @@success
-p Thanks for the message. If you included some contact details, I'll be in touch soon.
+p Thanks for the message, I'll be in touch soon.

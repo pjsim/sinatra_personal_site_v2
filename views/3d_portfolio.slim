@@ -1,8 +1,36 @@
 -@title="3D Portfolio"
 
-.videos
-	iframe.img-rounded allowfullscreen="" frameborder="0" height="281" mozallowfullscreen="" src="//player.vimeo.com/video/55004756" webkitallowfullscreen="" width="500"
+#carousel-example-generic.carousel.slide data-ride="carousel" data-interval="false"
 
-	iframe.img-rounded allowfullscreen="" frameborder="0" height="281" mozallowfullscreen="" src="//player.vimeo.com/video/59902606" webkitallowfullscreen="" width="500"
+  /! Indicators
+  ol.carousel-indicators
+    li.active data-slide-to="0" data-target="#carousel-example-generic"
+    li data-slide-to="1" data-target="#carousel-example-generic"
+    li data-slide-to="2" data-target="#carousel-example-generic"
 
-	iframe.img-rounded allowfullscreen="" frameborder="0" height="310" mozallowfullscreen="" src="//player.vimeo.com/video/64790284" webkitallowfullscreen="" width="500"
+  /! Wrapper for slides
+  .carousel-inner.videos
+    .item.active
+      iframe.img-rounded allowfullscreen="" frameborder="0" height="300" mozallowfullscreen="" src="//player.vimeo.com/video/55004756" webkitallowfullscreen="" width="500"
+        .carousel-caption
+        	h1 Hello
+
+
+    .item
+      iframe.img-rounded allowfullscreen="" frameborder="0" height="300" mozallowfullscreen="" src="//player.vimeo.com/video/59902606" webkitallowfullscreen="" width="500"
+        .carousel-caption
+        	| hello
+
+
+    .item
+      iframe.img-rounded allowfullscreen="" frameborder="0" height="300" mozallowfullscreen="" src="//player.vimeo.com/video/64790284" webkitallowfullscreen="" width="500"
+        .carousel-caption
+        	| hello
+
+
+  /! Controls
+  a.left.carousel-control data-slide="prev" href="#carousel-example-generic"
+    span.glyphicon.glyphicon-chevron-left
+  a.right.carousel-control data-slide="next" href="#carousel-example-generic"
+    span.glyphicon.glyphicon-chevron-right
+

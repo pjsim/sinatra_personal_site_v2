@@ -39,7 +39,7 @@ post '/' do
     require 'pony'
     Pony.mail(
       # from: "Phillip<phillip.j.simmonds@gmail.com>",
-      from: params[:sender]
+      from: params[:sender],
       to: 'phillip.j.simmonds@gmail.com',
       subject: "A message from the PJS website",
       body: params[:message],
@@ -85,7 +85,8 @@ p use stackoverflow for everything you dont know
 p weta wants: scrum, MySQL, (say i use postgres but its similar)
 p whats on front page ==> short about me? skills? pics?
 p form needs return email field
-
+p clean up code for github (including css)
+p probably move menu right a bit and give bit more space to main content (esp 3d vids)
 
 @@404
 h1 404! 

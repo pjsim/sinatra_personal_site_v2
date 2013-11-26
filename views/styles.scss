@@ -1,15 +1,19 @@
+$grey:#A1A794;
+$black:#444;
+$blue:#788389;
+
 html{
 	background: url("/images/invaders3.png") repeat;
 	background-color: rgba(blue, 0.05);
 }
 
 header{
-    border-bottom: 6px solid black;
+    border-bottom: 6px solid rgba(black, 0.6);
     padding: 0px 0px 15px 0px;
 }
 
 body{
-	border: 6px solid black;
+	border: 6px solid rgba(black, 0.6);
 	max-width: 1040px;
 	margin: 10px auto;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.16),-5px 5px 5px rgba(0,0,0,0.16);
@@ -18,7 +22,7 @@ body{
 
 footer{
 	padding: 20px 50px 20px 50px;
-	border-top: 6px solid black;
+	border-top: 6px solid rgba(black, 0.6);
 }
 
 .logo{
@@ -77,7 +81,22 @@ border-color: transparent;
 padding: 0px 0px;
 
 }
+.panel-body{
+	padding: 0px;
+	margin-top: -4px;
+}
 
+.panel-collapse{
+
+}
+
+#contact{
+	textarea{
+		width: 230px;
+		border-radius: 5px;
+		margin-bottom: 4px;
+	}
+}
 
 /*.panel{
 	text-align: center;

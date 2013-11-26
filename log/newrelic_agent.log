@@ -41,3 +41,87 @@
 [11/25/13 08:02:08 +1100 linuxmint (5461)] INFO : Installing Net instrumentation
 [11/25/13 08:02:08 +1100 linuxmint (5461)] INFO : Finished instrumentation
 [11/25/13 08:02:10 +1100 linuxmint (5461)] INFO : Doing deferred dependency-detection before Rack startup
+[11/26/13 03:58:07 +1100 linuxmint (2675)] INFO : Starting the New Relic agent in "development" environment.
+[11/26/13 03:58:07 +1100 linuxmint (2675)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/26/13 03:58:07 +1100 linuxmint (2675)] INFO : Reading configuration from newrelic.yml
+[11/26/13 03:58:07 +1100 linuxmint (2675)] INFO : Enabling the Request Sampler.
+[11/26/13 03:58:07 +1100 linuxmint (2675)] INFO : Enabling the Request Sampler.
+[11/26/13 03:58:07 +1100 linuxmint (2675)] INFO : Environment: development
+[11/26/13 03:58:07 +1100 linuxmint (2675)] INFO : No known dispatcher detected.
+[11/26/13 03:58:07 +1100 linuxmint (2675)] INFO : Application: My Application
+[11/26/13 03:58:07 +1100 linuxmint (2675)] WARN : Agent configured not to send data in this environment.
+[11/26/13 03:58:08 +1100 linuxmint (2675)] INFO : Installing Sinatra instrumentation
+[11/26/13 03:58:08 +1100 linuxmint (2675)] INFO : Installing deferred Rack instrumentation
+[11/26/13 03:58:08 +1100 linuxmint (2675)] INFO : Installing Net instrumentation
+[11/26/13 03:58:08 +1100 linuxmint (2675)] INFO : Finished instrumentation
+[11/26/13 03:58:09 +1100 linuxmint (2675)] INFO : Doing deferred dependency-detection before Rack startup
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Starting the New Relic agent in "development" environment.
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Reading configuration from newrelic.yml
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Enabling the Request Sampler.
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Enabling the Request Sampler.
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Environment: development
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : No known dispatcher detected.
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Application: My Application
+[11/26/13 04:00:12 +1100 linuxmint (2971)] WARN : Agent configured not to send data in this environment.
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Installing Sinatra instrumentation
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Installing deferred Rack instrumentation
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Installing Net instrumentation
+[11/26/13 04:00:12 +1100 linuxmint (2971)] INFO : Finished instrumentation
+[11/26/13 04:00:17 +1100 linuxmint (2971)] INFO : Doing deferred dependency-detection before Rack startup
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Starting the New Relic agent in "development" environment.
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Reading configuration from newrelic.yml
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Enabling the Request Sampler.
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Enabling the Request Sampler.
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Environment: development
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : No known dispatcher detected.
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Application: My Application
+[11/26/13 06:01:34 +1100 linuxmint (3152)] WARN : Agent configured not to send data in this environment.
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Installing Sinatra instrumentation
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Installing deferred Rack instrumentation
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Installing Net instrumentation
+[11/26/13 06:01:34 +1100 linuxmint (3152)] INFO : Finished instrumentation
+[11/26/13 06:01:38 +1100 linuxmint (3152)] INFO : Doing deferred dependency-detection before Rack startup
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Starting the New Relic agent in "development" environment.
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Reading configuration from newrelic.yml
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Enabling the Request Sampler.
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Enabling the Request Sampler.
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Environment: development
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : No known dispatcher detected.
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Application: My Application
+[11/26/13 06:01:58 +1100 linuxmint (3232)] WARN : Agent configured not to send data in this environment.
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Installing Sinatra instrumentation
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Installing deferred Rack instrumentation
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Installing Net instrumentation
+[11/26/13 06:01:58 +1100 linuxmint (3232)] INFO : Finished instrumentation
+[11/26/13 06:02:00 +1100 linuxmint (3232)] INFO : Doing deferred dependency-detection before Rack startup
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Starting the New Relic agent in "development" environment.
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Reading configuration from newrelic.yml
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Enabling the Request Sampler.
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Enabling the Request Sampler.
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Environment: development
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : No known dispatcher detected.
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Application: My Application
+[11/27/13 02:48:57 +1100 linuxmint (2200)] WARN : Agent configured not to send data in this environment.
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Installing Sinatra instrumentation
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Installing deferred Rack instrumentation
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Installing Net instrumentation
+[11/27/13 02:48:57 +1100 linuxmint (2200)] INFO : Finished instrumentation
+[11/27/13 02:49:28 +1100 linuxmint (2200)] INFO : Doing deferred dependency-detection before Rack startup
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Starting the New Relic agent in "development" environment.
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Reading configuration from newrelic.yml
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Enabling the Request Sampler.
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Enabling the Request Sampler.
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Environment: development
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : No known dispatcher detected.
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Application: My Application
+[11/27/13 03:40:05 +1100 linuxmint (4337)] WARN : Agent configured not to send data in this environment.
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Installing Sinatra instrumentation
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Installing deferred Rack instrumentation
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Installing Net instrumentation
+[11/27/13 03:40:05 +1100 linuxmint (4337)] INFO : Finished instrumentation
+[11/27/13 03:40:28 +1100 linuxmint (4337)] INFO : Doing deferred dependency-detection before Rack startup

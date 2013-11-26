@@ -68,9 +68,14 @@ a.btn.btn-primary href="/3d_portfolio" role="button" 3D Animation - Porfolio
       h4.panel-title
         a.btn.btn-primary data-parent="#accordion" data-toggle="collapse" href="#collapseContact"
           | Contact Me
-    #collapseContact.panel-collapse.collapse
+    #collapseContact.panel-collapse.collapse.well style="padding:5px;margin:0px;margin-left:6px"
       .panel-body
-	    #contact
-		  form action='/' method='post'
-	        textarea rows='4' cols='6' name='message' style="width:250px;border-radius:15px;"
-	        input#send.button.btn-info type='submit' value='Send' style="border-radius:5px;"
+  	    #contact
+  		  form action='/' method='post'
+            h4 send me a quick email
+            label.small for='sender' Email Address:
+            textarea rows='1' cols='6' name='sender'
+            / label.small for='message' Send me a quick email
+            label.small for='sender' Message:
+  	        textarea rows='4' cols='6' name='message'
+  	        input#send.button.btn-info type='submit' value='Send' style="border-radius:5px;"

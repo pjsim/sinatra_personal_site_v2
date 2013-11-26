@@ -38,7 +38,8 @@ end
 post '/' do
     require 'pony'
     Pony.mail(
-      from: "Phillip<phillip.j.simmonds@gmail.com>",
+      # from: "Phillip<phillip.j.simmonds@gmail.com>",
+      from: params[:sender]
       to: 'phillip.j.simmonds@gmail.com',
       subject: "A message from the PJS website",
       body: params[:message],
@@ -74,14 +75,17 @@ __END__
 @@index
 .css3-notification
   p Hi, this website is under development!!
+
 p better content <-- do during work
 p built for mobile <-- menu needs to change based on mobile view
 h4 links for things like company names
-p link crazy domain to heroku  
-p fix form <-- ask on stackoverflow how do i get default value for text field in sinatra?
 p better css --> colors, fade black border
 p carousel for animation portfolio (and maybe web one as well)
 p use stackoverflow for everything you dont know
+p weta wants: scrum, MySQL, (say i use postgres but its similar)
+p whats on front page ==> short about me? skills? pics?
+p form needs return email field
+
 
 @@404
 h1 404! 

@@ -76,32 +76,19 @@ __END__
 .css3-notification
   p Hi, this website is under development!!
 
-p better content <-- do during work
-p built for mobile <-- menu needs to change based on mobile view
-/ use stackoverflow for everything you dont know
-/ weta wants: scrum, MySQL, (say i use postgres but its similar), i will pop by in april. 
-/ my dad is NZ born and having family reunion
-p whats on front page ==> short about me? skills? pics? say on main page and about me what sklls most familiar with: ruby, rails, maya, houdini, nuke
-p clean up code for github (including css)
-p probably move menu right a bit and give bit more space to main content (esp 3d vids)
-p favicon
-p keep logo or not?
-p fix title phills personal page
-p cv needs special titles or better yet make it look more like real CV
-p have download pdf cv option!!
-p firefox and chrome check
+/p I am a web developer and 3D animator living in Sydney. I have skills in 
+/p I have skills with Ruby on Rails, Sinatra and Python
+/p I have skills Maya, Houdini and Nuke
 
+/p This site was built using the Sinatra framework. The background was done using Nodebox. The layout was done with
+  | twitter bootstrap.
 
-
-
-.row.website
-  .col-md-6
-    h4 Personal Site
-    h1 IMAGE
-  .col-md-6
-    h4 GitHub link
-    h5 This site was developed for blah blah JUST TALK ABOUT THIS SITE ON MAIN PAGE
-    em Sinatra, NodeBox
+/hr
+/p better content <-- do during work
+/p built for mobile <-- menu needs to change based on mobile view
+/p clean up code for github (including css)
+/p new relic on my three sites
+/p githubs need updates!!!! all say 6 months ago!!
 
 @@404
 h1 404! 

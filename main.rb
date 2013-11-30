@@ -89,7 +89,7 @@ p keep logo or not?
 p fix title phills personal page
 p cv needs special titles or better yet make it look more like real CV
 p have download pdf cv option!!
-p need new webpage images
+p firefox and chrome check
 
 
 

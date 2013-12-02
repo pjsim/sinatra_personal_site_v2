@@ -76,19 +76,27 @@ __END__
 .css3-notification
   p Hi, this website is under development!!
 
+
 /p I am a web developer and 3D animator living in Sydney. I have skills in 
 /p I have skills with Ruby on Rails, Sinatra and Python
 /p I have skills Maya, Houdini and Nuke
 
-/p This site was built using the Sinatra framework. The background was done using Nodebox. The layout was done with
-  | twitter bootstrap.
+p This site was built using the Sinatra framework. The background was done using Nodebox. The layout was done with
+  | twitter bootstrap. The code is available here on GitHub: 
 
 /hr
-/p better content <-- do during work
+/p 
+  /strong better content <-- do during work
 /p built for mobile <-- menu needs to change based on mobile view
 /p clean up code for github (including css)
 /p new relic on my three sites
-/p githubs need updates!!!! all say 6 months ago!!
+/p
+ / strong githubs need updates!!!! all say 6 months ago!!
+
+/p 
+ / strong put github link in footer
+/p 
+ / strong github link this site -->
 
 @@404
 h1 404! 

@@ -81,8 +81,10 @@ __END__
 /p I have skills with Ruby on Rails, Sinatra and Python
 /p I have skills Maya, Houdini and Nuke
 
-p This site was built using the Sinatra framework. The background was done using Nodebox. The layout was done with
-  | twitter bootstrap. The code is available here on GitHub: 
+p This site was built using the Sinatra framework with Twitter boostrap. The background image was done using Nodebox. 
+p The code is available here on GitHub:
+a href="https://github.com/pjsim/sinatra_personal_site_v2" target="_blank" github.com/pjsim/sinatra_personal_site_v2 
+
 
 /hr
 /p 
